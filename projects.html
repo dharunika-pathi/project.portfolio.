@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dharunika Portfolio - Projects</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    header { background: purple; padding: 15px 30px; }
+    nav ul { list-style: none; display: flex; gap: 20px; }
+    nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+    nav ul li a:hover { color: #ddd; }
+    section { height: 100vh; padding: 40px; background: #fafafa; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    h1 { color: purple; margin-bottom: 20px; }
+    .projects { max-width: 800px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.1); }
+    .card h2 { color: #5e2d79; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>My Projects</h1>
+    <div class="projects">
+      <div class="card">
+        <h2>Weather Forecast App</h2>
+        <p>A web app showing real-time weather info with API integration.</p>
+      </div>
+      <div class="card">
+        <h2>Hostel Room Allocation System</h2>
+        <p>An automated system for hostel room allocation with efficiency.</p>
+      </div>
+      <div class="card">
+        <h2>Medical Dataset Classification</h2>
+        <p>Machine learning project for classifying medical datasets.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

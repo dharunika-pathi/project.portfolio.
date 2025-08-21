@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dharunika Portfolio - Contact</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    header { background: purple; padding: 15px 30px; }
+    nav ul { list-style: none; display: flex; gap: 20px; }
+    nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+    nav ul li a:hover { color: #ddd; }
+    section { height: 100vh; padding: 40px; background: #f9f9f9; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    h1 { color: purple; margin-bottom: 20px; }
+    form { display: flex; flex-direction: column; gap: 15px; width: 100%; max-width: 400px; }
+    input, textarea { padding: 10px; border: 2px solid purple; border-radius: 5px; }
+    button { padding: 10px; background: purple; color: white; border: none; border-radius: 5px; }
+    button:hover { background: #5e2d79; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Contact Me</h1>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
